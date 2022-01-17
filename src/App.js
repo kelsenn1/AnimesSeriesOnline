@@ -1,13 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Routes from "./routes"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Teste from "./teste"
+import { React } from "react";
 
 function App() {
-    return (
+  return (
     <>
-        <Routes/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<Home/>} component={Home} />
+          <Route path="/teste" element={<Teste/>} component={Teste} />
+        </Routes>
+      </BrowserRouter>
     </>
-    )
+  );
 }
 
 export default App;
