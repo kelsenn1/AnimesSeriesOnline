@@ -50,7 +50,7 @@ function Home() {
             <div className="App">
               <Carousel breakPoints={breakPoints}>
                   <div className="banner_item">
-                    <h1>titulo</h1>
+                    <h1>site</h1>
                     <h3>sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse sinopse </h3>
                     <img src={vingadores}/>
                   </div>
